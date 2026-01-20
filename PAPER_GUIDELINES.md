@@ -32,9 +32,9 @@ The paper's job is to make both of these legible to the reader.
 
 Write in only two modes, and label transitions:
 
-1. **High level** (level 1): why this matters, what the parts are, what to pay attention to.
-2. **Summarization** (level 2): hand-wavy “how it works” that is neither an argument nor an implementable description (**never write here**).
-3. **Technical** (level 3): declarative, precise, “should type-check,” reproducible. Narrative around math / equations.
+1. **High level** (level 1): Why this matters, what the parts are, what to pay attention to.
+2. **Summarization** (level 2): Why might it work? What does it do? Hand-wavy “how it works” that is neither an argument nor an implementable description (**never write here**).
+3. **Technical** (level 3): What are the goals? What is the process? Declarative, precise, “should type-check,” reproducible. Narrative glue around math / equations, which should stand alone to someone with enough context.
 
 Rule: every paragraph must be clearly **level 1** or **level 3**.
 Rule: The math must tell the story while remaining minimal. The contributions of the paper should jump out via math. Uncluttered mathematical storytelling is critical.
