@@ -79,9 +79,9 @@ Agent rules:
 - Make contrasts explicit: “Unlike X, we …” / “X assumes …; we remove that assumption by …”.
 
 Structure:
-1. Introduction paragraph stating main contribution
-2. One paragraph per facet of related work
-3. Final paragraph: how this work contrasts with and goes beyond both facets
+1. One paragraph per facet of related work
+2. Each facet has one sentence on each related paper in that facet, explaining what the paper did
+3. Final sentence of paragraph: how this work contrasts with and goes beyond both prior work
 
 ---
 
@@ -96,7 +96,7 @@ Agent rules:
 - Import minimally: only define concepts/notation that will be used later.
 - Don't explain things that never come up again. (Example: GPTQ doesn't describe transformers at all, despite all experiments being on transformers—because the method applies to any large model and uses nothing transformer-specific.)
 - Notation hygiene: define symbols once, define shapes/types, and reuse consistently.
-- Background is not linear: it can grow as the method section reveals what needs importing.
+- Background is not linear: it can grow as the method section reveals what needs importing. Revise as you write the paper.
 
 ---
 
@@ -114,7 +114,7 @@ Agent rules:
 
 Structure:
 1. Describe modular components/steps at high level
-2. For each component: high-level intro, then level 3 technical description
+2. For each component: high-level intro on what the goal is, then level 3 technical description
 3. Include an algorithm in documented pseudocode (ties the modules into something implementable)
 
 ---
@@ -131,6 +131,7 @@ Agent rules:
 - Explicitly list:
   - baselines included (and what they represent), and
   - baselines not included (cite them and explain why they’re excluded).
+- Details like model hyperparameters can go in the appendix in a table.
 
 ---
 
