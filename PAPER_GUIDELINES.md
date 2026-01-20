@@ -97,6 +97,7 @@ Agent rules:
 - **Include what you directly build on.** (Example: GPTQ does cover Optimal Brain Quantization, layer-wise quantization, and the Hessian formulation in detail—because the method directly modifies these.)
 - **Litmus test:** Does your Method section directly modify, extend, or contrast with this technical machinery? If yes → Background. If it's just context the audience already has → skip or cite.
 - Notation hygiene: define symbols once, define shapes/types, and reuse consistently.
+- Symbol discipline: don't introduce a symbol you won't reuse; any symbol introduced in Background/Problem Setup should reappear in Method; avoid single-use symbols.
 - Background is not linear: it can grow as the Method section reveals what needs importing. Revise as you write the paper.
 
 Common mistakes:
@@ -202,3 +203,4 @@ Agent rules:
 - **Abstract:** A miniature paper: motivation + what you did + the key result(s) in a few sentences.
 - **Conclusion:** Restate contributions and the evidence; keep it aligned with the intro claims (no new claims).
 - **Appendix:** Move implementation details, extra baselines/ablations, and long proofs so the main narrative stays crisp.
+
